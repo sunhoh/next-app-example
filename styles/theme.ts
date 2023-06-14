@@ -1,4 +1,4 @@
-import { ThemeType } from "../types/style/theme";
+import { ThemeType } from "../style/theme";
 
 const theme: ThemeType = {};
 

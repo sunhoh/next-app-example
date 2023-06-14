@@ -1,11 +1,11 @@
-import "@/styles/globals.css";
+// import "styles/globals.css";
 import Head from "next/head";
 import type { AppProps } from "next/app";
 import { RecoilRoot } from "recoil";
 import { ThemeProvider } from "@emotion/react";
-import Layout from "@/layout/Layout";
-import theme from "@/styles/theme";
-import GlobalStyle from "@/types/style/GlovalStyle";
+import Layout from "layout/Layout";
+import theme from "styles/theme";
+import GlobalStyle from "style/GlovalStyle";
 
 export const reportWebVitals = (metrics: any) => console.log(metrics);
 
